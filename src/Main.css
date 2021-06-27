@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Truculenta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root{
+    --pseudo-backgroundimage:url("backdrop.jpg");
+}
+.main{display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 145px;
+}
+.main input{
+    padding: 0.2em 0.7em;
+    margin-right: 1.5em;
+}
+.glyphicon{
+    transform: scale(2);
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.glyphicon:hover{
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    color:crimson;
+}
+.main::before{
+    content: "";
+            background: var(--pseudo-backgroundimage);
+            background-size: 100% 100%;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 70px;
+            left: auto;
+            z-index: -1;
+            width: 375px;
+            height:35%;
+            opacity: 0.6;
+}
+
+.filmcontainer{
+    display: grid;
+    grid-template-columns:repeat(2,minmax(180px,1fr));
+    width: 375px;
+    margin-top: 17px;
+}
+#box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 9px;
+    width: 180px;
+    background-color:white;
+    z-index: 1;
+   height: 278px;
+}
+.filmcontainer div{
+    
+    color:black ;
+}
+.card{
+    width: 80%;
+    height: 60%;
+    margin-top: 18px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+#box h6{
+    width: 100%;
+    padding: 0.5em;
+    text-align: left;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+#innercard{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: auto;
+    width: 180px;
+    margin-top: 9px;
+    background-color: white;
+    z-index: 1;
+    height: 278px;
+}
+#innercard h6{
+    padding: 0.2em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-info{
+    background-color: #e91e63;
+}

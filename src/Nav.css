@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Truculenta:wght@300&display=swap');
+#navbar{
+    /* 
+    width: 375px;
+    
+    
+    margin: auto; */
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#830b0b;
+    height: 70px;
+}
+#imgid{
+    filter: invert(100%);
+    display: inline-block;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nav li{
+    /* padding: 0.6rem 2.1rem;
+    margin: 0.8rem; */
+    list-style: none;
+}
+#innerdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 10rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    gap:15px;
+}
+.links{
+    padding: 0.7rem 0.6rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size:small;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    text-align: center;
+}
+#innerdiv h2{
+    color: white;
+}
+.links:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.specialbtns{
+    padding:0.7em 1.3em;
+    background:none;
+    border:none;
+    color:white;
+    transition: all 0.6ms;
+}
+.specialbtns:hover{
+    background-color: white;
+    color: black;
+}

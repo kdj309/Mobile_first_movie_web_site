@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Truculenta:wght@300&display=swap');
+.popular{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    gap: 25px;
+    margin-left: 15px;
+    height: 250px;
+}
+.popular::-webkit-scrollbar{
+    display: none;
+}
+.popular div{
+    width: 22%;
+    min-height: 250px;
+}
+.filmbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #000;
+    background-color: white;
+    min-width: 180px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 450ms;
+    height: 250px;
+}
+.filmbox:hover{
+    transition-timing-function: ease-in-out;
+    transform: scale(1.039);
+}
+.filmbox img{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    width: 110px;
+    height: 150px;
+}
+.filmbox h6{
+    text-align:justify;
+    width: 100%;
+    margin-left: 8px;
+}

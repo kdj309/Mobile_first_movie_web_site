@@ -1,0 +1,19 @@
+.App{
+    width: 375px;
+    height: 100vh;
+  }
+.container h5{
+    color: rgba(32, 53, 238, 0.897);
+}
+.navbar{
+height:60px;
+background-color:"white"
+}
+.container{
+    width: 375px;
+}
+#id{
+    padding: 0.8em 1.1em;
+    width:25%;
+    background-color: rgba(32, 53, 238, 0.897);
+}
